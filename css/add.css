@@ -1,0 +1,190 @@
+/* Общие стили */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #800000;
+    color: #ffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #FF0000;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .blog-title h1 {
+    margin: 0;
+    margin-right: 120px;
+  }
+  
+  .account a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .account svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #800000;
+    padding: 10px;
+  }
+  
+  .dropdown li {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown a:hover {
+    text-decoration: underline;
+  }
+  
+  .dropdown:hover {
+    display: block;
+  }
+  
+  main {
+    display: flex;
+    margin: 20px;
+  }
+  
+  section {
+    flex-basis: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+    color: #800000;
+  }
+  .account {
+    position: relative;
+    color: white;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .account a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .account svg {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #800000;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #800000;
+  }
+  
+  aside {
+    flex-basis: 25%;
+  }
+  
+  aside h3 {
+    margin-top: 0;
+    color: #800000;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  aside li {
+    margin-bottom: 5px;
+  }
+  
+  aside a {
+    text-decoration: none;
+    color: #800000;
+  }
+  
+  footer {
+    background-color: #800000;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
